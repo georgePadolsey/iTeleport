@@ -213,3 +213,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#Intelij
+.idea/
+*.iml
+target/
+out/
+atlassian-ide-plugin.xml
