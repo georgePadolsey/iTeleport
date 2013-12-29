@@ -14,6 +14,10 @@ public @interface TeleportTypeMeta {
 
     String name();
 
+    /**
+     * take credit before I do >:)
+     * @return the author of it
+     */
     String author() default "George Padolsey <georgepadolsey@gmail.com>";
 
     int maxTime();

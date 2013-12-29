@@ -1,0 +1,5 @@
+name: iTeleport
+version: 1.0
+authors: [pokuit <George Padolsey>]
+description: Enhancing your teleporting
+main: iTeleport.georgep.pokuit.iTeleport
