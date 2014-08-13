@@ -1,0 +1,23 @@
+{
+    name: "Syfy1",
+    version: "1.0",
+    authors: ["George Padolsey <pokuit>"],
+
+    headPosition: {
+        pitch: 5,
+        yaw: 0
+    },
+    disabledMovement: ["x", "y", "z", "pitch", "yaw"],
+    maxStages: 1,
+    defaultStage: {
+        schematic: "syfy1_stage%i%",
+        repeatParticles: true,
+        duration: 4000,
+        maxParticles: 8,
+        defaultParticle: {
+            type: "bubble",
+            duration: 500,
+            afterDelay: 500
+        }
+    }
+}
